@@ -25,9 +25,6 @@ public class App {
         // Демонстрация управления
         System.out.println("\n=== Управление телевизором ===");
         randomTV.powerOn();
-        randomTV.setCurrentChannel(15);
-        randomTV.volumeUp();
-        randomTV.volumeUp();
 
         System.out.println("\nПосле включения и настройки:");
         System.out.println(randomTV);
